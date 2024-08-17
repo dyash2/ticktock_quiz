@@ -1,0 +1,16 @@
+com.example.clock_game.app-jetified-core-ktx-1.9.0-0 C:\Users\Yash\.gradle\caches\transforms-3\62231e253ace33d604c2878fe32820db\transformed\jetified-core-ktx-1.9.0\res
+com.example.clock_game.app-jetified-annotation-experimental-1.3.0-1 C:\Users\Yash\.gradle\caches\transforms-3\6b80bc8dcaf20c1409102d8bb00b7f2b\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.clock_game.app-jetified-window-1.0.0-beta04-2 C:\Users\Yash\.gradle\caches\transforms-3\85fcd7e982f4b903acaffa22dc391e78\transformed\jetified-window-1.0.0-beta04\res
+com.example.clock_game.app-core-1.9.0-3 C:\Users\Yash\.gradle\caches\transforms-3\b08ee96647169fab545a13f7d8f2533a\transformed\core-1.9.0\res
+com.example.clock_game.app-lifecycle-runtime-2.3.1-4 C:\Users\Yash\.gradle\caches\transforms-3\ca0899aeab45960a873eddcf6039c1cb\transformed\lifecycle-runtime-2.3.1\res
+com.example.clock_game.app-jetified-window-java-1.0.0-beta04-5 C:\Users\Yash\.gradle\caches\transforms-3\decb837c56f9705ca2e7e8b420f3a8c1\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.clock_game.app-debug-6 C:\Users\Yash\OneDrive\Desktop\Flutter\clock_game\android\app\src\debug\res
+com.example.clock_game.app-main-7 C:\Users\Yash\OneDrive\Desktop\Flutter\clock_game\android\app\src\main\res
+com.example.clock_game.app-pngs-8 C:\Users\Yash\OneDrive\Desktop\Flutter\clock_game\build\app\generated\res\pngs\debug
+com.example.clock_game.app-resValues-9 C:\Users\Yash\OneDrive\Desktop\Flutter\clock_game\build\app\generated\res\resValues\debug
+com.example.clock_game.app-rs-10 C:\Users\Yash\OneDrive\Desktop\Flutter\clock_game\build\app\generated\res\rs\debug
+com.example.clock_game.app-mergeDebugResources-11 C:\Users\Yash\OneDrive\Desktop\Flutter\clock_game\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.clock_game.app-mergeDebugResources-12 C:\Users\Yash\OneDrive\Desktop\Flutter\clock_game\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.clock_game.app-merged_res-13 C:\Users\Yash\OneDrive\Desktop\Flutter\clock_game\build\app\intermediates\merged_res\debug
+com.example.clock_game.app-packaged_res-14 C:\Users\Yash\OneDrive\Desktop\Flutter\clock_game\build\audioplayers_android\intermediates\packaged_res\debug
+com.example.clock_game.app-packaged_res-15 C:\Users\Yash\OneDrive\Desktop\Flutter\clock_game\build\path_provider_android\intermediates\packaged_res\debug

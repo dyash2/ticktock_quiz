@@ -1,8 +1,7 @@
-
-import 'package:clock_game/screens/main_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:clock_game/screens/main_menu.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -12,18 +11,17 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-  late AudioPlayer _audioPlayer;
+  static final AudioPlayer _audioPlayer = AudioPlayer(); // Global AudioPlayer
 
   @override
   void initState() {
     super.initState();
-    _audioPlayer = AudioPlayer(); // Initialize the audio player
     _playLoadingAudio();
     _navigateToHome();
   }
 
   void _playLoadingAudio() async {
-    // Play the loading audio file
+    // Stop any currently playing audio before starting new playback
     await _audioPlayer.play(AssetSource('splash_audio.mp3'));
   }
 
@@ -31,13 +29,13 @@ class _SplashScreenState extends State<SplashScreen> {
     await Future.delayed(const Duration(seconds: 3), () {});
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (context) => const MainMenu()), 
+      MaterialPageRoute(builder: (context) => const MainMenu()),
     );
   }
 
   @override
   void dispose() {
-    _audioPlayer.dispose(); // Dispose of the audio player when the splash screen is removed
+    _audioPlayer.stop(); // Stop audio when disposing the splash screen
     super.dispose();
   }
 
@@ -47,13 +45,13 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/splash_bg.jpg'), 
-            fit: BoxFit.cover, 
+            image: AssetImage('assets/splash_bg.png'),
+            fit: BoxFit.cover,
           ),
         ),
         child: Center(
           child: Lottie.asset(
-            'assets/animation.json', 
+            'assets/animation.json',
             width: 400,
             height: 400,
             fit: BoxFit.cover,

@@ -1,5 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 // Question class with a method to get the correct answer
 class Question {
@@ -42,7 +43,6 @@ List<Question> generateRandomQuestions(int count) {
   return questions;
 }
 
-// Widget to display a list of multiple-choice options
 class McqOptions extends StatelessWidget {
   final Question question;
   final Function(String) onOptionSelected;
@@ -55,19 +55,24 @@ class McqOptions extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: question.options
-          .map((option) => GestureDetector(
-                onTap: () => onOptionSelected(option),
-                child: Container(
-                  margin: const EdgeInsets.symmetric(vertical: 4.0),
-                  padding: const EdgeInsets.all(16.0),
-                  color: Colors.blueAccent,
-                  child: Text(option, style: const TextStyle(fontSize: 20, color: Colors.white)),
-                ),
-              ))
-          .toList(),
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: question.options.map((option) {
+        return GestureDetector(
+          onTap: () => onOptionSelected(option),
+          child: Container(
+            width:120,
+            decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(12),
+             border: Border.all(color: Colors.black, width: 2.0), // Black border
+            ),
+            child: Center(
+              child: Text(option, style:  GoogleFonts.poppins(fontSize: 20, color: Colors.black)),
+            ),
+          ),
+        );
+      }).toList(),
     );
   }
 }

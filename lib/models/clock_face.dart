@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 class ClockFace extends StatelessWidget {
   final DateTime time;
 
@@ -26,17 +27,23 @@ class ClockPainter extends CustomPainter {
     final radius = size.width / 2;
 
     final paintCircle = Paint()
-      ..color = Colors.blue[200]!
+      ..color = const Color(0xffF6F3E5)
       ..style = PaintingStyle.fill;
 
     final paintOutline = Paint()
-      ..color = Colors.blue
-      ..strokeWidth = 4
+      ..color = const Color(0xffC8945C)
+      ..strokeWidth = 18
+      ..style = PaintingStyle.stroke;
+
+    final paintOutline2 = Paint()
+      ..color = const Color(0xffF3DB8C)
+      ..strokeWidth = 2
       ..style = PaintingStyle.stroke;
 
     // Draw the clock circle
     canvas.drawCircle(center, radius, paintCircle);
     canvas.drawCircle(center, radius, paintOutline);
+    canvas.drawCircle(center, radius, paintOutline2);
 
     // Draw clock hands
     drawHand(canvas, center, radius * 0.6, time.hour * 30 + time.minute * 0.5, 8);
@@ -48,7 +55,7 @@ class ClockPainter extends CustomPainter {
   }
 
   void drawNumbers(Canvas canvas, Offset center, double radius) {
-    final textStyle = TextStyle(
+    final textStyle = GoogleFonts.poppins(
       color: Colors.black,
       fontSize: radius * 0.15,
       fontWeight: FontWeight.bold,

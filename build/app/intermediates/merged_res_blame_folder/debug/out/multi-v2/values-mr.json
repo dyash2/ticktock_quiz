@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.clock_game.app-mergeDebugResources-11:/values-mr/values-mr.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Yash\\.gradle\\caches\\transforms-3\\b08ee96647169fab545a13f7d8f2533a\\transformed\\core-1.9.0\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
