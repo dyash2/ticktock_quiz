@@ -92,7 +92,7 @@ class _ClockGameState extends State<ClockGame> {
     if (_remainingTime > 100) {
       timerColor = Colors.green;
     } else if (_remainingTime > 50) {
-      timerColor = Colors.yellow;
+      timerColor = Colors.orange;
     } else {
       timerColor = Colors.red;
     }

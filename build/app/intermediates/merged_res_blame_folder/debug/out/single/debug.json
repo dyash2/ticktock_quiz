@@ -1,23 +1,87 @@
 [
     {
-        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.clock_game.app-main-7:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-xhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-merged_res-13:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-main-7:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-merged_res-13:\\drawable-v21_launch_background.xml.flat",
+        "source": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-main-7:\\drawable-v21\\launch_background.xml"
+    },
+    {
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-hdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
     },
     {
         "merged": "com.example.clock_game.app-merged_res-13:/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "com.example.clock_game.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.clock_game.app-merged_res-13:/drawable-v21_launch_background.xml.flat",
-        "source": "com.example.clock_game.app-main-7:/drawable-v21/launch_background.xml"
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-hdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.example.clock_game.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-merged_res-13:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-main-7:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "com.example.clock_game.app-merged_res-13:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "com.example.clock_game.app-main-7:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-mdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-merged_res-13:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-main-7:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-mdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-merged_res-13:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-merged_res-13:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yash\\.gradle\\daemon\\7.6.3\\com.example.clock_game.app-main-7:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.clock_game.app-merged_res-13:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.clock_game.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "com.example.clock_game.app-merged_res-13:/mipmap-xhdpi_ic_launcher.png.flat",

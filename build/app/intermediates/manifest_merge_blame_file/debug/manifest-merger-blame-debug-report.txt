@@ -53,7 +53,7 @@
 39-->[androidx.core:core:1.9.0] C:\Users\Yash\.gradle\caches\transforms-3\b08ee96647169fab545a13f7d8f2533a\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 40        android:debuggable="true"
 41        android:icon="@mipmap/ic_launcher"
-42        android:label="clock_game" >
+42        android:label="Tick-Tock Quiz" >
 43        <activity
 44            android:name="com.example.clock_game.MainActivity"
 45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
